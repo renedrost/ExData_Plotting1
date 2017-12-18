@@ -1,5 +1,7 @@
+## Include genfun.R. This script has a generic function to read the data.
 source("genfun.R")
 
+## Get data.
 data <- getDataFile()
 
 ## Start PNG-file: plot1.png, with dimension 480x480px
